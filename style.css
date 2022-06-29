@@ -156,3 +156,10 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.footer {
+    color: #fff;
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+}
