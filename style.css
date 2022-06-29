@@ -79,10 +79,7 @@ button {
 }
 
 .info {
-    padding: 25px 170px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 25px 400px 100px;
 }
 
 .info-header {
@@ -90,22 +87,24 @@ button {
     font-weight: bold;
     color: #1f2937;
     margin-bottom: 36px;
+    text-align: center;
 }
 
 .info-pieces {
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .info-piece {
-    width: 200px;
+    width: 170px;
 }
 
 .info-piece-image {
-    width: 100px;
     aspect-ratio: 1;
     border-radius: 10px;
     border: 4px solid #3b82f6;
-    margin: 0 auto 12px;
+    margin-bottom: 12px;
 }
 
 .info-piece-caption {
