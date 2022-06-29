@@ -110,3 +110,20 @@ button {
 .info-piece-caption {
     text-align: center;
 }
+
+.quote {
+    padding: 100px 400px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: inline-end;
+    font-size: 26px;
+    font-weight: bold;
+}
